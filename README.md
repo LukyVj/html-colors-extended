@@ -38,17 +38,30 @@
   .foo{
     background: currentColor;
   }
-  
+
   .bar{
     background: currentColor;
   }
-  
+
   .baz{
     background: currentColor;
   }
  ```
 
  You can also extend the classes into your styles : 
+  ```html
+  <div class="foo">
+    <p>lorem</p>
+  </div>
+
+  <div class="bar">
+    <p>Ipsum</p>
+  </div>
+
+  <div class="baz">
+    <p>Dolor</p>
+  </div>
+ ```
  ```scss
   .foo{
     @extend tomato;
@@ -62,6 +75,7 @@
     @extend tomato-dark;
   }
  ```
+
  lorem
 To define a color without a pre-created class, you can use variables that got the same names ad the colors : 
   ```scss
