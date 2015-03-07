@@ -18,6 +18,51 @@
   color: $color-light;
  }
  ```
+
+ You can use the classes directly in HTML : 
+ ```html
+  <div class="foo tomato">
+    <p>lorem</p>
+  </div>
+
+  <div class="bar tomato-light">
+    <p>Ipsum</p>
+  </div>
+
+  <div class="baz tomato-dark">
+    <p>Dolor</p>
+  </div>
+ ```
+
+ ```scss
+  .foo{
+    background: currentColor;
+  }
+  
+  .bar{
+    background: currentColor;
+  }
+  
+  .baz{
+    background: currentColor;
+  }
+ ```
+
+ You can also extend the classes into your styles : 
+ ```scss
+  .foo{
+    @extend tomato;
+  }
+
+  .foo{
+    @extend tomato-light;
+  }
+
+  .foo{
+    @extend tomato-dark;
+  }
+ ```
+ lorem
 To define a color without a pre-created class, you can use variables that got the same names ad the colors : 
   ```scss
  .foo{ 
