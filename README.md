@@ -25,11 +25,18 @@ e.g :
  .baz{ color: $red-dark }
 ```
 
-Or you can use the color-tint mixin :
-
- `@include color-tint(<color>, <light/dark>, <ammount>%)`
-e.g :
- `@include color-tint(red , light, 15%);`
+Or you can use the color-tint mixin `@include color-tint(<color>, <light/dark>, <ammount>%)` :
+ ```scss
+ .foo{ 
+  @include color-tint(red , light, 15%);
+ }
+ .bar{ 
+  @include color-tint(blue , dark, 5%);
+ }
+ .baz{ 
+  @include color-tint(green , light, 35%);
+ }
+ ```
 
 You can use variables in the mixin. 
 
