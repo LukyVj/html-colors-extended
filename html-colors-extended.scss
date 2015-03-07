@@ -1,8 +1,15 @@
-// For classes : $dark-<color> / $light-<color>
+/*! HTML Colors Extended
+    Author : Lucas Bonomi, <lucas.bonomi@gmail.com>, @LukyVj
+    Version : 0.0.1
+    License : MIT 
+    Github : https://github.com/LukyVj/html-colors-extended
+*/
+
+// OPTIONS
 $light-tint: 8%;
 $dark-tint: 8%;
 
-
+// COLOR-TINT MIXIN
 @mixin color-tint($color, $tint, $amount){
   @if $tint == dark {
     background: darken($color, $amount); 
@@ -12,6 +19,7 @@ $dark-tint: 8%;
   }
 }
 
+// COLOR VARIABLES
 $aliceblue: #f0f8ff;
 $light-aliceblue: lighten($aliceblue, $light-tint);
 $dark-aliceblue: darken($aliceblue, $dark-tint);
@@ -576,6 +584,9 @@ $yellowgreen: #9acd32;
 $light-yellowgreen: lighten($yellowgreen, $light-tint);
 $dark-yellowgreen: darken($yellowgreen, $dark-tint);
 
+
+// CLASSES 
+// Use `currentColor` as value to extend the colors
 
 // aliceblue
 .aliceblue{
