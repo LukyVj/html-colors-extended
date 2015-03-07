@@ -1,0 +1,2129 @@
+// For classes : $dark-<color> / $light-<color>
+$light-tint: 8%;
+$dark-tint: 8%;
+
+
+@mixin color-tint($color, $tint, $amount){
+  @if $tint == dark {
+    background: darken($color, $amount); 
+  } 
+  @if $tint == light {
+    background: lighten($color, $amount);
+  }
+}
+
+$aliceblue: #f0f8ff;
+$light-aliceblue: lighten($aliceblue, $light-tint);
+$dark-aliceblue: darken($aliceblue, $dark-tint);
+
+$antiquewhite: #faebd7;
+$light-antiquewhite: lighten($antiquewhite, $light-tint);
+$dark-antiquewhite: darken($antiquewhite, $dark-tint);
+
+$aqua: #00ffff;
+$light-aqua: lighten($aqua, $light-tint);
+$dark-aqua: darken($aqua, $dark-tint);
+
+$aquamarine: #7fffd4;
+$light-aquamarine: lighten($aquamarine, $light-tint);
+$dark-aquamarine: darken($aquamarine, $dark-tint);
+
+$azure: #f0ffff;
+$light-azure: lighten($azure, $light-tint);
+$dark-azure: darken($azure, $dark-tint);
+
+$beige: #f5f5dc;
+$light-beige: lighten($beige, $light-tint);
+$dark-beige: darken($beige, $dark-tint);
+
+$bisque: #ffe4c4;
+$light-bisque: lighten($bisque, $light-tint);
+$dark-bisque: darken($bisque, $dark-tint);
+
+$black: #000000;
+$light-black: lighten($black, $light-tint);
+$dark-black: darken($black, $dark-tint);
+
+$blanchedalmond: #ffebcd;
+$light-blanchedalmond: lighten($blanchedalmond, $light-tint);
+$dark-blanchedalmond: darken($blanchedalmond, $dark-tint);
+
+$blue: #0000ff;
+$light-blue: lighten($blue, $light-tint);
+$dark-blue: darken($blue, $dark-tint);
+
+$blueviolet: #8a2be2;
+$light-blueviolet: lighten($blueviolet, $light-tint);
+$dark-blueviolet: darken($blueviolet, $dark-tint);
+
+$brown: #a52a2a;
+$light-brown: lighten($brown, $light-tint);
+$dark-brown: darken($brown, $dark-tint);
+
+$burlywood: #deb887;
+$light-burlywood: lighten($burlywood, $light-tint);
+$dark-burlywood: darken($burlywood, $dark-tint);
+
+$cadetblue: #5f9ea0;
+$light-cadetblue: lighten($cadetblue, $light-tint);
+$dark-cadetblue: darken($cadetblue, $dark-tint);
+
+$chartreuse: #7fff00;
+$light-chartreuse: lighten($chartreuse, $light-tint);
+$dark-chartreuse: darken($chartreuse, $dark-tint);
+
+$chocolate: #d2691e;
+$light-chocolate: lighten($chocolate, $light-tint);
+$dark-chocolate: darken($chocolate, $dark-tint);
+
+$coral: #ff7f50;
+$light-coral: lighten($coral, $light-tint);
+$dark-coral: darken($coral, $dark-tint);
+
+$cornflowerblue: #6495ed;
+$light-cornflowerblue: lighten($cornflowerblue, $light-tint);
+$dark-cornflowerblue: darken($cornflowerblue, $dark-tint);
+
+$cornsilk: #fff8dc;
+$light-cornsilk: lighten($cornsilk, $light-tint);
+$dark-cornsilk: darken($cornsilk, $dark-tint);
+
+$crimson: #dc143c;
+$light-crimson: lighten($crimson, $light-tint);
+$dark-crimson: darken($crimson, $dark-tint);
+
+$cyan: #00ffff;
+$light-cyan: lighten($cyan, $light-tint);
+$dark-cyan: darken($cyan, $dark-tint);
+
+$darkblue: #00008b;
+$light-darkblue: lighten($darkblue, $light-tint);
+$dark-darkblue: darken($darkblue, $dark-tint);
+
+$darkcyan: #008b8b;
+$light-darkcyan: lighten($darkcyan, $light-tint);
+$dark-darkcyan: darken($darkcyan, $dark-tint);
+
+$darkgoldenrod: #b8860b;
+$light-darkgoldenrod: lighten($darkgoldenrod, $light-tint);
+$dark-darkgoldenrod: darken($darkgoldenrod, $dark-tint);
+
+$darkgray: #a9a9a9;
+$light-darkgray: lighten($darkgray, $light-tint);
+$dark-darkgray: darken($darkgray, $dark-tint);
+
+$darkgreen: #006400;
+$light-darkgreen: lighten($darkgreen, $light-tint);
+$dark-darkgreen: darken($darkgreen, $dark-tint);
+
+$darkkhaki: #bdb76b;
+$light-darkkhaki: lighten($darkkhaki, $light-tint);
+$dark-darkkhaki: darken($darkkhaki, $dark-tint);
+
+$darkmagenta: #8b008b;
+$light-darkmagenta: lighten($darkmagenta, $light-tint);
+$dark-darkmagenta: darken($darkmagenta, $dark-tint);
+
+$darkolivegreen: #556b2f;
+$light-darkolivegreen: lighten($darkolivegreen, $light-tint);
+$dark-darkolivegreen: darken($darkolivegreen, $dark-tint);
+
+$darkorange: #ff8c00;
+$light-darkorange: lighten($darkorange, $light-tint);
+$dark-darkorange: darken($darkorange, $dark-tint);
+
+$darkorchid: #9932cc;
+$light-darkorchid: lighten($darkorchid, $light-tint);
+$dark-darkorchid: darken($darkorchid, $dark-tint);
+
+$darkred: #8b0000;
+$light-darkred: lighten($darkred, $light-tint);
+$dark-darkred: darken($darkred, $dark-tint);
+
+$darksalmon: #e9967a;
+$light-darksalmon: lighten($darksalmon, $light-tint);
+$dark-darksalmon: darken($darksalmon, $dark-tint);
+
+$darkseagreen: #8fbc8f;
+$light-darkseagreen: lighten($darkseagreen, $light-tint);
+$dark-darkseagreen: darken($darkseagreen, $dark-tint);
+
+$darkslateblue: #483d8b;
+$light-darkslateblue: lighten($darkslateblue, $light-tint);
+$dark-darkslateblue: darken($darkslateblue, $dark-tint);
+
+$darkslategray: #2f4f4f;
+$light-darkslategray: lighten($darkslategray, $light-tint);
+$dark-darkslategray: darken($darkslategray, $dark-tint);
+
+$darkturquoise: #00ced1;
+$light-darkturquoise: lighten($darkturquoise, $light-tint);
+$dark-darkturquoise: darken($darkturquoise, $dark-tint);
+
+$darkviolet: #9400d3;
+$light-darkviolet: lighten($darkviolet, $light-tint);
+$dark-darkviolet: darken($darkviolet, $dark-tint);
+
+$deeppink: #ff1493;
+$light-deeppink: lighten($deeppink, $light-tint);
+$dark-deeppink: darken($deeppink, $dark-tint);
+
+$deepskyblue: #00bfff;
+$light-deepskyblue: lighten($deepskyblue, $light-tint);
+$dark-deepskyblue: darken($deepskyblue, $dark-tint);
+
+$dimgray: #696969;
+$light-dimgray: lighten($dimgray, $light-tint);
+$dark-dimgray: darken($dimgray, $dark-tint);
+
+$dodgerblue: #1e90ff;
+$light-dodgerblue: lighten($dodgerblue, $light-tint);
+$dark-dodgerblue: darken($dodgerblue, $dark-tint);
+
+$firebrick: #b22222;
+$light-firebrick: lighten($firebrick, $light-tint);
+$dark-firebrick: darken($firebrick, $dark-tint);
+
+$floralwhite: #fffaf0;
+$light-floralwhite: lighten($floralwhite, $light-tint);
+$dark-floralwhite: darken($floralwhite, $dark-tint);
+
+$forestgreen: #228b22;
+$light-forestgreen: lighten($forestgreen, $light-tint);
+$dark-forestgreen: darken($forestgreen, $dark-tint);
+
+$fuchsia: #ff00ff;
+$light-fuchsia: lighten($fuchsia, $light-tint);
+$dark-fuchsia: darken($fuchsia, $dark-tint);
+
+$gainsboro: #dcdcdc;
+$light-gainsboro: lighten($gainsboro, $light-tint);
+$dark-gainsboro: darken($gainsboro, $dark-tint);
+
+$ghostwhite: #f8f8ff;
+$light-ghostwhite: lighten($ghostwhite, $light-tint);
+$dark-ghostwhite: darken($ghostwhite, $dark-tint);
+
+$gold: #ffd700;
+$light-gold: lighten($gold, $light-tint);
+$dark-gold: darken($gold, $dark-tint);
+
+$goldenrod: #daa520;
+$light-goldenrod: lighten($goldenrod, $light-tint);
+$dark-goldenrod: darken($goldenrod, $dark-tint);
+
+$gray: #808080;
+$light-gray: lighten($gray, $light-tint);
+$dark-gray: darken($gray, $dark-tint);
+
+$green: #008000;
+$light-green: lighten($green, $light-tint);
+$dark-green: darken($green, $dark-tint);
+
+$greenyellow: #adff2f;
+$light-greenyellow: lighten($greenyellow, $light-tint);
+$dark-greenyellow: darken($greenyellow, $dark-tint);
+
+$honeydew: #f0fff0;
+$light-honeydew: lighten($honeydew, $light-tint);
+$dark-honeydew: darken($honeydew, $dark-tint);
+
+$hotpink: #ff69b4;
+$light-hotpink: lighten($hotpink, $light-tint);
+$dark-hotpink: darken($hotpink, $dark-tint);
+
+$indianred: #cd5c5c;
+$light-indianred: lighten($indianred, $light-tint);
+$dark-indianred: darken($indianred, $dark-tint);
+
+$indigo: #4b0082;
+$light-indigo: lighten($indigo, $light-tint);
+$dark-indigo: darken($indigo, $dark-tint);
+
+$ivory: #fffff0;
+$light-ivory: lighten($ivory, $light-tint);
+$dark-ivory: darken($ivory, $dark-tint);
+
+$khaki: #f0e68c;
+$light-khaki: lighten($khaki, $light-tint);
+$dark-khaki: darken($khaki, $dark-tint);
+
+$lavender: #e6e6fa;
+$light-lavender: lighten($lavender, $light-tint);
+$dark-lavender: darken($lavender, $dark-tint);
+
+$lavenderblush: #fff0f5;
+$light-lavenderblush: lighten($lavenderblush, $light-tint);
+$dark-lavenderblush: darken($lavenderblush, $dark-tint);
+
+$lawngreen: #7cfc00;
+$light-lawngreen: lighten($lawngreen, $light-tint);
+$dark-lawngreen: darken($lawngreen, $dark-tint);
+
+$lemonchiffon: #fffacd;
+$light-lemonchiffon: lighten($lemonchiffon, $light-tint);
+$dark-lemonchiffon: darken($lemonchiffon, $dark-tint);
+
+$lightblue: #add8e6;
+$light-lightblue: lighten($lightblue, $light-tint);
+$dark-lightblue: darken($lightblue, $dark-tint);
+
+$lightcoral: #f08080;
+$light-lightcoral: lighten($lightcoral, $light-tint);
+$dark-lightcoral: darken($lightcoral, $dark-tint);
+
+$lightcyan: #e0ffff;
+$light-lightcyan: lighten($lightcyan, $light-tint);
+$dark-lightcyan: darken($lightcyan, $dark-tint);
+
+$lightgoldenrodyellow: #fafad2;
+$light-lightgoldenrodyellow: lighten($lightgoldenrodyellow, $light-tint);
+$dark-lightgoldenrodyellow: darken($lightgoldenrodyellow, $dark-tint);
+
+$lightgray: #d3d3d3;
+$light-lightgray: lighten($lightgray, $light-tint);
+$dark-lightgray: darken($lightgray, $dark-tint);
+
+$lightgreen: #90ee90;
+$light-lightgreen: lighten($lightgreen, $light-tint);
+$dark-lightgreen: darken($lightgreen, $dark-tint);
+
+$lightpink: #ffb6c1;
+$light-lightpink: lighten($lightpink, $light-tint);
+$dark-lightpink: darken($lightpink, $dark-tint);
+
+$lightsalmon: #ffa07a;
+$light-lightsalmon: lighten($lightsalmon, $light-tint);
+$dark-lightsalmon: darken($lightsalmon, $dark-tint);
+
+$lightseagreen: #20b2aa;
+$light-lightseagreen: lighten($lightseagreen, $light-tint);
+$dark-lightseagreen: darken($lightseagreen, $dark-tint);
+
+$lightskyblue: #87cefa;
+$light-lightskyblue: lighten($lightskyblue, $light-tint);
+$dark-lightskyblue: darken($lightskyblue, $dark-tint);
+
+$lightslategray: #778899;
+$light-lightslategray: lighten($lightslategray, $light-tint);
+$dark-lightslategray: darken($lightslategray, $dark-tint);
+
+$lightsteelblue: #b0c4de;
+$light-lightsteelblue: lighten($lightsteelblue, $light-tint);
+$dark-lightsteelblue: darken($lightsteelblue, $dark-tint);
+
+$lightyellow: #ffffe0;
+$light-lightyellow: lighten($lightyellow, $light-tint);
+$dark-lightyellow: darken($lightyellow, $dark-tint);
+
+$lime: #00ff00;
+$light-lime: lighten($lime, $light-tint);
+$dark-lime: darken($lime, $dark-tint);
+
+$limegreen: #32cd32;
+$light-limegreen: lighten($limegreen, $light-tint);
+$dark-limegreen: darken($limegreen, $dark-tint);
+
+$linen: #faf0e6;
+$light-linen: lighten($linen, $light-tint);
+$dark-linen: darken($linen, $dark-tint);
+
+$magenta: #ff00ff;
+$light-magenta: lighten($magenta, $light-tint);
+$dark-magenta: darken($magenta, $dark-tint);
+
+$maroon: #800000;
+$light-maroon: lighten($maroon, $light-tint);
+$dark-maroon: darken($maroon, $dark-tint);
+
+$mediumaquamarine: #66cdaa;
+$light-mediumaquamarine: lighten($mediumaquamarine, $light-tint);
+$dark-mediumaquamarine: darken($mediumaquamarine, $dark-tint);
+
+$mediumblue: #0000cd;
+$light-mediumblue: lighten($mediumblue, $light-tint);
+$dark-mediumblue: darken($mediumblue, $dark-tint);
+
+$mediumorchid: #ba55d3;
+$light-mediumorchid: lighten($mediumorchid, $light-tint);
+$dark-mediumorchid: darken($mediumorchid, $dark-tint);
+
+$mediumpurple: #9370db;
+$light-mediumpurple: lighten($mediumpurple, $light-tint);
+$dark-mediumpurple: darken($mediumpurple, $dark-tint);
+
+$mediumseagreen: #3cb371;
+$light-mediumseagreen: lighten($mediumseagreen, $light-tint);
+$dark-mediumseagreen: darken($mediumseagreen, $dark-tint);
+
+$mediumslateblue: #7b68ee;
+$light-mediumslateblue: lighten($mediumslateblue, $light-tint);
+$dark-mediumslateblue: darken($mediumslateblue, $dark-tint);
+
+$mediumspringgreen: #00fa9a;
+$light-mediumspringgreen: lighten($mediumspringgreen, $light-tint);
+$dark-mediumspringgreen: darken($mediumspringgreen, $dark-tint);
+
+$mediumturquoise: #48d1cc;
+$light-mediumturquoise: lighten($mediumturquoise, $light-tint);
+$dark-mediumturquoise: darken($mediumturquoise, $dark-tint);
+
+$mediumvioletred: #c71585;
+$light-mediumvioletred: lighten($mediumvioletred, $light-tint);
+$dark-mediumvioletred: darken($mediumvioletred, $dark-tint);
+
+$midnightblue: #191970;
+$light-midnightblue: lighten($midnightblue, $light-tint);
+$dark-midnightblue: darken($midnightblue, $dark-tint);
+
+$mintcream: #f5fffa;
+$light-mintcream: lighten($mintcream, $light-tint);
+$dark-mintcream: darken($mintcream, $dark-tint);
+
+$mistyrose: #ffe4e1;
+$light-mistyrose: lighten($mistyrose, $light-tint);
+$dark-mistyrose: darken($mistyrose, $dark-tint);
+
+$moccasin: #ffe4b5;
+$light-moccasin: lighten($moccasin, $light-tint);
+$dark-moccasin: darken($moccasin, $dark-tint);
+
+$navajowhite: #ffdead;
+$light-navajowhite: lighten($navajowhite, $light-tint);
+$dark-navajowhite: darken($navajowhite, $dark-tint);
+
+$navy: #000080;
+$light-navy: lighten($navy, $light-tint);
+$dark-navy: darken($navy, $dark-tint);
+
+$oldlace: #fdf5e6;
+$light-oldlace: lighten($oldlace, $light-tint);
+$dark-oldlace: darken($oldlace, $dark-tint);
+
+$olive: #808000;
+$light-olive: lighten($olive, $light-tint);
+$dark-olive: darken($olive, $dark-tint);
+
+$olivedrab: #6b8e23;
+$light-olivedrab: lighten($olivedrab, $light-tint);
+$dark-olivedrab: darken($olivedrab, $dark-tint);
+
+$orange: #ffa500;
+$light-orange: lighten($orange, $light-tint);
+$dark-orange: darken($orange, $dark-tint);
+
+$orangered: #ff4500;
+$light-orangered: lighten($orangered, $light-tint);
+$dark-orangered: darken($orangered, $dark-tint);
+
+$orchid: #da70d6;
+$light-orchid: lighten($orchid, $light-tint);
+$dark-orchid: darken($orchid, $dark-tint);
+
+$palegoldenrod: #eee8aa;
+$light-palegoldenrod: lighten($palegoldenrod, $light-tint);
+$dark-palegoldenrod: darken($palegoldenrod, $dark-tint);
+
+$palegreen: #98fb98;
+$light-palegreen: lighten($palegreen, $light-tint);
+$dark-palegreen: darken($palegreen, $dark-tint);
+
+$paleturquoise: #afeeee;
+$light-paleturquoise: lighten($paleturquoise, $light-tint);
+$dark-paleturquoise: darken($paleturquoise, $dark-tint);
+
+$palevioletred: #db7093;
+$light-palevioletred: lighten($palevioletred, $light-tint);
+$dark-palevioletred: darken($palevioletred, $dark-tint);
+
+$papayawhip: #ffefd5;
+$light-papayawhip: lighten($papayawhip, $light-tint);
+$dark-papayawhip: darken($papayawhip, $dark-tint);
+
+$peachpuff: #ffdab9;
+$light-peachpuff: lighten($peachpuff, $light-tint);
+$dark-peachpuff: darken($peachpuff, $dark-tint);
+
+$peru: #cd853f;
+$light-peru: lighten($peru, $light-tint);
+$dark-peru: darken($peru, $dark-tint);
+
+$pink: #ffc0cb;
+$light-pink: lighten($pink, $light-tint);
+$dark-pink: darken($pink, $dark-tint);
+
+$plum: #dda0dd;
+$light-plum: lighten($plum, $light-tint);
+$dark-plum: darken($plum, $dark-tint);
+
+$powderblue: #b0e0e6;
+$light-powderblue: lighten($powderblue, $light-tint);
+$dark-powderblue: darken($powderblue, $dark-tint);
+
+$purple: #800080;
+$light-purple: lighten($purple, $light-tint);
+$dark-purple: darken($purple, $dark-tint);
+
+$rebeccapurple: #663399;
+$light-rebeccapurple: lighten($rebeccapurple, $light-tint);
+$dark-rebeccapurple: darken($rebeccapurple, $dark-tint);
+
+$red: #ff0000;
+$light-red: lighten($red, $light-tint);
+$dark-red: darken($red, $dark-tint);
+
+$rosybrown: #bc8f8f;
+$light-rosybrown: lighten($rosybrown, $light-tint);
+$dark-rosybrown: darken($rosybrown, $dark-tint);
+
+$royalblue: #4169e1;
+$light-royalblue: lighten($royalblue, $light-tint);
+$dark-royalblue: darken($royalblue, $dark-tint);
+
+$saddlebrown: #8b4513;
+$light-saddlebrown: lighten($saddlebrown, $light-tint);
+$dark-saddlebrown: darken($saddlebrown, $dark-tint);
+
+$salmon: #fa8072;
+$light-salmon: lighten($salmon, $light-tint);
+$dark-salmon: darken($salmon, $dark-tint);
+
+$sandybrown: #f4a460;
+$light-sandybrown: lighten($sandybrown, $light-tint);
+$dark-sandybrown: darken($sandybrown, $dark-tint);
+
+$seagreen: #2e8b57;
+$light-seagreen: lighten($seagreen, $light-tint);
+$dark-seagreen: darken($seagreen, $dark-tint);
+
+$seashell: #fff5ee;
+$light-seashell: lighten($seashell, $light-tint);
+$dark-seashell: darken($seashell, $dark-tint);
+
+$sienna: #a0522d;
+$light-sienna: lighten($sienna, $light-tint);
+$dark-sienna: darken($sienna, $dark-tint);
+
+$silver: #c0c0c0;
+$light-silver: lighten($silver, $light-tint);
+$dark-silver: darken($silver, $dark-tint);
+
+$skyblue: #87ceeb;
+$light-skyblue: lighten($skyblue, $light-tint);
+$dark-skyblue: darken($skyblue, $dark-tint);
+
+$slateblue: #6a5acd;
+$light-slateblue: lighten($slateblue, $light-tint);
+$dark-slateblue: darken($slateblue, $dark-tint);
+
+$slategray: #708090;
+$light-slategray: lighten($slategray, $light-tint);
+$dark-slategray: darken($slategray, $dark-tint);
+
+$snow: #fffafa;
+$light-snow: lighten($snow, $light-tint);
+$dark-snow: darken($snow, $dark-tint);
+
+$springgreen: #00ff7f;
+$light-springgreen: lighten($springgreen, $light-tint);
+$dark-springgreen: darken($springgreen, $dark-tint);
+
+$steelblue: #4682b4;
+$light-steelblue: lighten($steelblue, $light-tint);
+$dark-steelblue: darken($steelblue, $dark-tint);
+
+$tan: #d2b48c;
+$light-tan: lighten($tan, $light-tint);
+$dark-tan: darken($tan, $dark-tint);
+
+$teal: #008080;
+$light-teal: lighten($teal, $light-tint);
+$dark-teal: darken($teal, $dark-tint);
+
+$thistle: #d8bfd8;
+$light-thistle: lighten($thistle, $light-tint);
+$dark-thistle: darken($thistle, $dark-tint);
+
+$tomato: #ff6347;
+$light-tomato: lighten($tomato, $light-tint);
+$dark-tomato: darken($tomato, $dark-tint);
+
+$turquoise: #40e0d0;
+$light-turquoise: lighten($turquoise, $light-tint);
+$dark-turquoise: darken($turquoise, $dark-tint);
+
+$violet: #ee82ee;
+$light-violet: lighten($violet, $light-tint);
+$dark-violet: darken($violet, $dark-tint);
+
+$wheat: #f5deb3;
+$light-wheat: lighten($wheat, $light-tint);
+$dark-wheat: darken($wheat, $dark-tint);
+
+$white: #ffffff;
+$light-white: lighten($white, $light-tint);
+$dark-white: darken($white, $dark-tint);
+
+$whitesmoke: #f5f5f5;
+$light-whitesmoke: lighten($whitesmoke, $light-tint);
+$dark-whitesmoke: darken($whitesmoke, $dark-tint);
+
+$yellow: #ffff00;
+$light-yellow: lighten($yellow, $light-tint);
+$dark-yellow: darken($yellow, $dark-tint);
+
+$yellowgreen: #9acd32;
+$light-yellowgreen: lighten($yellowgreen, $light-tint);
+$dark-yellowgreen: darken($yellowgreen, $dark-tint);
+
+
+// aliceblue
+.aliceblue{
+  color: $aliceblue;
+}
+.light-aliceblue{
+  color: $light-aliceblue;
+}
+.dark-aliceblue{
+  color: $dark-aliceblue;
+}
+
+// antiquewhite
+.antiquewhite{
+  color: $antiquewhite;
+}
+.light-antiquewhite{
+  color: $light-antiquewhite;
+}
+.dark-antiquewhite{
+  color: $dark-antiquewhite;
+}
+
+// aqua
+.aqua{
+  color: $aqua;
+}
+.light-aqua{
+  color: $light-aqua;
+}
+.dark-aqua{
+  color: $dark-aqua;
+}
+
+// aquamarine
+.aquamarine{
+  color: $aquamarine;
+}
+.light-aquamarine{
+  color: $light-aquamarine;
+}
+.dark-aquamarine{
+  color: $dark-aquamarine;
+}
+
+// azure
+.azure{
+  color: $azure;
+}
+.light-azure{
+  color: $light-azure;
+}
+.dark-azure{
+  color: $dark-azure;
+}
+
+// beige
+.beige{
+  color: $beige;
+}
+.light-beige{
+  color: $light-beige;
+}
+.dark-beige{
+  color: $dark-beige;
+}
+
+// bisque
+.bisque{
+  color: $bisque;
+}
+.light-bisque{
+  color: $light-bisque;
+}
+.dark-bisque{
+  color: $dark-bisque;
+}
+
+// black
+.black{
+  color: $black;
+}
+.light-black{
+  color: $light-black;
+}
+.dark-black{
+  color: $dark-black;
+}
+
+// blanchedalmond
+.blanchedalmond{
+  color: $blanchedalmond;
+}
+.light-blanchedalmond{
+  color: $light-blanchedalmond;
+}
+.dark-blanchedalmond{
+  color: $dark-blanchedalmond;
+}
+
+// blue
+.blue{
+  color: $blue;
+}
+.light-blue{
+  color: $light-blue;
+}
+.dark-blue{
+  color: $dark-blue;
+}
+
+// blueviolet
+.blueviolet{
+  color: $blueviolet;
+}
+.light-blueviolet{
+  color: $light-blueviolet;
+}
+.dark-blueviolet{
+  color: $dark-blueviolet;
+}
+
+// brown
+.brown{
+  color: $brown;
+}
+.light-brown{
+  color: $light-brown;
+}
+.dark-brown{
+  color: $dark-brown;
+}
+
+// burlywood
+.burlywood{
+  color: $burlywood;
+}
+.light-burlywood{
+  color: $light-burlywood;
+}
+.dark-burlywood{
+  color: $dark-burlywood;
+}
+
+// cadetblue
+.cadetblue{
+  color: $cadetblue;
+}
+.light-cadetblue{
+  color: $light-cadetblue;
+}
+.dark-cadetblue{
+  color: $dark-cadetblue;
+}
+
+// chartreuse
+.chartreuse{
+  color: $chartreuse;
+}
+.light-chartreuse{
+  color: $light-chartreuse;
+}
+.dark-chartreuse{
+  color: $dark-chartreuse;
+}
+
+// chocolate
+.chocolate{
+  color: $chocolate;
+}
+.light-chocolate{
+  color: $light-chocolate;
+}
+.dark-chocolate{
+  color: $dark-chocolate;
+}
+
+// coral
+.coral{
+  color: $coral;
+}
+.light-coral{
+  color: $light-coral;
+}
+.dark-coral{
+  color: $dark-coral;
+}
+
+// cornflowerblue
+.cornflowerblue{
+  color: $cornflowerblue;
+}
+.light-cornflowerblue{
+  color: $light-cornflowerblue;
+}
+.dark-cornflowerblue{
+  color: $dark-cornflowerblue;
+}
+
+// cornsilk
+.cornsilk{
+  color: $cornsilk;
+}
+.light-cornsilk{
+  color: $light-cornsilk;
+}
+.dark-cornsilk{
+  color: $dark-cornsilk;
+}
+
+// crimson
+.crimson{
+  color: $crimson;
+}
+.light-crimson{
+  color: $light-crimson;
+}
+.dark-crimson{
+  color: $dark-crimson;
+}
+
+// cyan
+.cyan{
+  color: $cyan;
+}
+.light-cyan{
+  color: $light-cyan;
+}
+.dark-cyan{
+  color: $dark-cyan;
+}
+
+// darkblue
+.darkblue{
+  color: $darkblue;
+}
+.light-darkblue{
+  color: $light-darkblue;
+}
+.dark-darkblue{
+  color: $dark-darkblue;
+}
+
+// darkcyan
+.darkcyan{
+  color: $darkcyan;
+}
+.light-darkcyan{
+  color: $light-darkcyan;
+}
+.dark-darkcyan{
+  color: $dark-darkcyan;
+}
+
+// darkgoldenrod
+.darkgoldenrod{
+  color: $darkgoldenrod;
+}
+.light-darkgoldenrod{
+  color: $light-darkgoldenrod;
+}
+.dark-darkgoldenrod{
+  color: $dark-darkgoldenrod;
+}
+
+// darkgray
+.darkgray{
+  color: $darkgray;
+}
+.light-darkgray{
+  color: $light-darkgray;
+}
+.dark-darkgray{
+  color: $dark-darkgray;
+}
+
+// darkgreen
+.darkgreen{
+  color: $darkgreen;
+}
+.light-darkgreen{
+  color: $light-darkgreen;
+}
+.dark-darkgreen{
+  color: $dark-darkgreen;
+}
+
+// darkkhaki
+.darkkhaki{
+  color: $darkkhaki;
+}
+.light-darkkhaki{
+  color: $light-darkkhaki;
+}
+.dark-darkkhaki{
+  color: $dark-darkkhaki;
+}
+
+// darkmagenta
+.darkmagenta{
+  color: $darkmagenta;
+}
+.light-darkmagenta{
+  color: $light-darkmagenta;
+}
+.dark-darkmagenta{
+  color: $dark-darkmagenta;
+}
+
+// darkolivegreen
+.darkolivegreen{
+  color: $darkolivegreen;
+}
+.light-darkolivegreen{
+  color: $light-darkolivegreen;
+}
+.dark-darkolivegreen{
+  color: $dark-darkolivegreen;
+}
+
+// darkorange
+.darkorange{
+  color: $darkorange;
+}
+.light-darkorange{
+  color: $light-darkorange;
+}
+.dark-darkorange{
+  color: $dark-darkorange;
+}
+
+// darkorchid
+.darkorchid{
+  color: $darkorchid;
+}
+.light-darkorchid{
+  color: $light-darkorchid;
+}
+.dark-darkorchid{
+  color: $dark-darkorchid;
+}
+
+// darkred
+.darkred{
+  color: $darkred;
+}
+.light-darkred{
+  color: $light-darkred;
+}
+.dark-darkred{
+  color: $dark-darkred;
+}
+
+// darksalmon
+.darksalmon{
+  color: $darksalmon;
+}
+.light-darksalmon{
+  color: $light-darksalmon;
+}
+.dark-darksalmon{
+  color: $dark-darksalmon;
+}
+
+// darkseagreen
+.darkseagreen{
+  color: $darkseagreen;
+}
+.light-darkseagreen{
+  color: $light-darkseagreen;
+}
+.dark-darkseagreen{
+  color: $dark-darkseagreen;
+}
+
+// darkslateblue
+.darkslateblue{
+  color: $darkslateblue;
+}
+.light-darkslateblue{
+  color: $light-darkslateblue;
+}
+.dark-darkslateblue{
+  color: $dark-darkslateblue;
+}
+
+// darkslategray
+.darkslategray{
+  color: $darkslategray;
+}
+.light-darkslategray{
+  color: $light-darkslategray;
+}
+.dark-darkslategray{
+  color: $dark-darkslategray;
+}
+
+// darkturquoise
+.darkturquoise{
+  color: $darkturquoise;
+}
+.light-darkturquoise{
+  color: $light-darkturquoise;
+}
+.dark-darkturquoise{
+  color: $dark-darkturquoise;
+}
+
+// darkviolet
+.darkviolet{
+  color: $darkviolet;
+}
+.light-darkviolet{
+  color: $light-darkviolet;
+}
+.dark-darkviolet{
+  color: $dark-darkviolet;
+}
+
+// deeppink
+.deeppink{
+  color: $deeppink;
+}
+.light-deeppink{
+  color: $light-deeppink;
+}
+.dark-deeppink{
+  color: $dark-deeppink;
+}
+
+// deepskyblue
+.deepskyblue{
+  color: $deepskyblue;
+}
+.light-deepskyblue{
+  color: $light-deepskyblue;
+}
+.dark-deepskyblue{
+  color: $dark-deepskyblue;
+}
+
+// dimgray
+.dimgray{
+  color: $dimgray;
+}
+.light-dimgray{
+  color: $light-dimgray;
+}
+.dark-dimgray{
+  color: $dark-dimgray;
+}
+
+// dodgerblue
+.dodgerblue{
+  color: $dodgerblue;
+}
+.light-dodgerblue{
+  color: $light-dodgerblue;
+}
+.dark-dodgerblue{
+  color: $dark-dodgerblue;
+}
+
+// firebrick
+.firebrick{
+  color: $firebrick;
+}
+.light-firebrick{
+  color: $light-firebrick;
+}
+.dark-firebrick{
+  color: $dark-firebrick;
+}
+
+// floralwhite
+.floralwhite{
+  color: $floralwhite;
+}
+.light-floralwhite{
+  color: $light-floralwhite;
+}
+.dark-floralwhite{
+  color: $dark-floralwhite;
+}
+
+// forestgreen
+.forestgreen{
+  color: $forestgreen;
+}
+.light-forestgreen{
+  color: $light-forestgreen;
+}
+.dark-forestgreen{
+  color: $dark-forestgreen;
+}
+
+// fuchsia
+.fuchsia{
+  color: $fuchsia;
+}
+.light-fuchsia{
+  color: $light-fuchsia;
+}
+.dark-fuchsia{
+  color: $dark-fuchsia;
+}
+
+// gainsboro
+.gainsboro{
+  color: $gainsboro;
+}
+.light-gainsboro{
+  color: $light-gainsboro;
+}
+.dark-gainsboro{
+  color: $dark-gainsboro;
+}
+
+// ghostwhite
+.ghostwhite{
+  color: $ghostwhite;
+}
+.light-ghostwhite{
+  color: $light-ghostwhite;
+}
+.dark-ghostwhite{
+  color: $dark-ghostwhite;
+}
+
+// gold
+.gold{
+  color: $gold;
+}
+.light-gold{
+  color: $light-gold;
+}
+.dark-gold{
+  color: $dark-gold;
+}
+
+// goldenrod
+.goldenrod{
+  color: $goldenrod;
+}
+.light-goldenrod{
+  color: $light-goldenrod;
+}
+.dark-goldenrod{
+  color: $dark-goldenrod;
+}
+
+// gray
+.gray{
+  color: $gray;
+}
+.light-gray{
+  color: $light-gray;
+}
+.dark-gray{
+  color: $dark-gray;
+}
+
+// green
+.green{
+  color: $green;
+}
+.light-green{
+  color: $light-green;
+}
+.dark-green{
+  color: $dark-green;
+}
+
+// greenyellow
+.greenyellow{
+  color: $greenyellow;
+}
+.light-greenyellow{
+  color: $light-greenyellow;
+}
+.dark-greenyellow{
+  color: $dark-greenyellow;
+}
+
+// honeydew
+.honeydew{
+  color: $honeydew;
+}
+.light-honeydew{
+  color: $light-honeydew;
+}
+.dark-honeydew{
+  color: $dark-honeydew;
+}
+
+// hotpink
+.hotpink{
+  color: $hotpink;
+}
+.light-hotpink{
+  color: $light-hotpink;
+}
+.dark-hotpink{
+  color: $dark-hotpink;
+}
+
+// indianred
+.indianred{
+  color: $indianred;
+}
+.light-indianred{
+  color: $light-indianred;
+}
+.dark-indianred{
+  color: $dark-indianred;
+}
+
+// indigo
+.indigo{
+  color: $indigo;
+}
+.light-indigo{
+  color: $light-indigo;
+}
+.dark-indigo{
+  color: $dark-indigo;
+}
+
+// ivory
+.ivory{
+  color: $ivory;
+}
+.light-ivory{
+  color: $light-ivory;
+}
+.dark-ivory{
+  color: $dark-ivory;
+}
+
+// khaki
+.khaki{
+  color: $khaki;
+}
+.light-khaki{
+  color: $light-khaki;
+}
+.dark-khaki{
+  color: $dark-khaki;
+}
+
+// lavender
+.lavender{
+  color: $lavender;
+}
+.light-lavender{
+  color: $light-lavender;
+}
+.dark-lavender{
+  color: $dark-lavender;
+}
+
+// lavenderblush
+.lavenderblush{
+  color: $lavenderblush;
+}
+.light-lavenderblush{
+  color: $light-lavenderblush;
+}
+.dark-lavenderblush{
+  color: $dark-lavenderblush;
+}
+
+// lawngreen
+.lawngreen{
+  color: $lawngreen;
+}
+.light-lawngreen{
+  color: $light-lawngreen;
+}
+.dark-lawngreen{
+  color: $dark-lawngreen;
+}
+
+// lemonchiffon
+.lemonchiffon{
+  color: $lemonchiffon;
+}
+.light-lemonchiffon{
+  color: $light-lemonchiffon;
+}
+.dark-lemonchiffon{
+  color: $dark-lemonchiffon;
+}
+
+// lightblue
+.lightblue{
+  color: $lightblue;
+}
+.light-lightblue{
+  color: $light-lightblue;
+}
+.dark-lightblue{
+  color: $dark-lightblue;
+}
+
+// lightcoral
+.lightcoral{
+  color: $lightcoral;
+}
+.light-lightcoral{
+  color: $light-lightcoral;
+}
+.dark-lightcoral{
+  color: $dark-lightcoral;
+}
+
+// lightcyan
+.lightcyan{
+  color: $lightcyan;
+}
+.light-lightcyan{
+  color: $light-lightcyan;
+}
+.dark-lightcyan{
+  color: $dark-lightcyan;
+}
+
+// lightgoldenrodyellow
+.lightgoldenrodyellow{
+  color: $lightgoldenrodyellow;
+}
+.light-lightgoldenrodyellow{
+  color: $light-lightgoldenrodyellow;
+}
+.dark-lightgoldenrodyellow{
+  color: $dark-lightgoldenrodyellow;
+}
+
+// lightgray
+.lightgray{
+  color: $lightgray;
+}
+.light-lightgray{
+  color: $light-lightgray;
+}
+.dark-lightgray{
+  color: $dark-lightgray;
+}
+
+// lightgreen
+.lightgreen{
+  color: $lightgreen;
+}
+.light-lightgreen{
+  color: $light-lightgreen;
+}
+.dark-lightgreen{
+  color: $dark-lightgreen;
+}
+
+// lightpink
+.lightpink{
+  color: $lightpink;
+}
+.light-lightpink{
+  color: $light-lightpink;
+}
+.dark-lightpink{
+  color: $dark-lightpink;
+}
+
+// lightsalmon
+.lightsalmon{
+  color: $lightsalmon;
+}
+.light-lightsalmon{
+  color: $light-lightsalmon;
+}
+.dark-lightsalmon{
+  color: $dark-lightsalmon;
+}
+
+// lightseagreen
+.lightseagreen{
+  color: $lightseagreen;
+}
+.light-lightseagreen{
+  color: $light-lightseagreen;
+}
+.dark-lightseagreen{
+  color: $dark-lightseagreen;
+}
+
+// lightskyblue
+.lightskyblue{
+  color: $lightskyblue;
+}
+.light-lightskyblue{
+  color: $light-lightskyblue;
+}
+.dark-lightskyblue{
+  color: $dark-lightskyblue;
+}
+
+// lightslategray
+.lightslategray{
+  color: $lightslategray;
+}
+.light-lightslategray{
+  color: $light-lightslategray;
+}
+.dark-lightslategray{
+  color: $dark-lightslategray;
+}
+
+// lightsteelblue
+.lightsteelblue{
+  color: $lightsteelblue;
+}
+.light-lightsteelblue{
+  color: $light-lightsteelblue;
+}
+.dark-lightsteelblue{
+  color: $dark-lightsteelblue;
+}
+
+// lightyellow
+.lightyellow{
+  color: $lightyellow;
+}
+.light-lightyellow{
+  color: $light-lightyellow;
+}
+.dark-lightyellow{
+  color: $dark-lightyellow;
+}
+
+// lime
+.lime{
+  color: $lime;
+}
+.light-lime{
+  color: $light-lime;
+}
+.dark-lime{
+  color: $dark-lime;
+}
+
+// limegreen
+.limegreen{
+  color: $limegreen;
+}
+.light-limegreen{
+  color: $light-limegreen;
+}
+.dark-limegreen{
+  color: $dark-limegreen;
+}
+
+// linen
+.linen{
+  color: $linen;
+}
+.light-linen{
+  color: $light-linen;
+}
+.dark-linen{
+  color: $dark-linen;
+}
+
+// magenta
+.magenta{
+  color: $magenta;
+}
+.light-magenta{
+  color: $light-magenta;
+}
+.dark-magenta{
+  color: $dark-magenta;
+}
+
+// maroon
+.maroon{
+  color: $maroon;
+}
+.light-maroon{
+  color: $light-maroon;
+}
+.dark-maroon{
+  color: $dark-maroon;
+}
+
+// mediumaquamarine
+.mediumaquamarine{
+  color: $mediumaquamarine;
+}
+.light-mediumaquamarine{
+  color: $light-mediumaquamarine;
+}
+.dark-mediumaquamarine{
+  color: $dark-mediumaquamarine;
+}
+
+// mediumblue
+.mediumblue{
+  color: $mediumblue;
+}
+.light-mediumblue{
+  color: $light-mediumblue;
+}
+.dark-mediumblue{
+  color: $dark-mediumblue;
+}
+
+// mediumorchid
+.mediumorchid{
+  color: $mediumorchid;
+}
+.light-mediumorchid{
+  color: $light-mediumorchid;
+}
+.dark-mediumorchid{
+  color: $dark-mediumorchid;
+}
+
+// mediumpurple
+.mediumpurple{
+  color: $mediumpurple;
+}
+.light-mediumpurple{
+  color: $light-mediumpurple;
+}
+.dark-mediumpurple{
+  color: $dark-mediumpurple;
+}
+
+// mediumseagreen
+.mediumseagreen{
+  color: $mediumseagreen;
+}
+.light-mediumseagreen{
+  color: $light-mediumseagreen;
+}
+.dark-mediumseagreen{
+  color: $dark-mediumseagreen;
+}
+
+// mediumslateblue
+.mediumslateblue{
+  color: $mediumslateblue;
+}
+.light-mediumslateblue{
+  color: $light-mediumslateblue;
+}
+.dark-mediumslateblue{
+  color: $dark-mediumslateblue;
+}
+
+// mediumspringgreen
+.mediumspringgreen{
+  color: $mediumspringgreen;
+}
+.light-mediumspringgreen{
+  color: $light-mediumspringgreen;
+}
+.dark-mediumspringgreen{
+  color: $dark-mediumspringgreen;
+}
+
+// mediumturquoise
+.mediumturquoise{
+  color: $mediumturquoise;
+}
+.light-mediumturquoise{
+  color: $light-mediumturquoise;
+}
+.dark-mediumturquoise{
+  color: $dark-mediumturquoise;
+}
+
+// mediumvioletred
+.mediumvioletred{
+  color: $mediumvioletred;
+}
+.light-mediumvioletred{
+  color: $light-mediumvioletred;
+}
+.dark-mediumvioletred{
+  color: $dark-mediumvioletred;
+}
+
+// midnightblue
+.midnightblue{
+  color: $midnightblue;
+}
+.light-midnightblue{
+  color: $light-midnightblue;
+}
+.dark-midnightblue{
+  color: $dark-midnightblue;
+}
+
+// mintcream
+.mintcream{
+  color: $mintcream;
+}
+.light-mintcream{
+  color: $light-mintcream;
+}
+.dark-mintcream{
+  color: $dark-mintcream;
+}
+
+// mistyrose
+.mistyrose{
+  color: $mistyrose;
+}
+.light-mistyrose{
+  color: $light-mistyrose;
+}
+.dark-mistyrose{
+  color: $dark-mistyrose;
+}
+
+// moccasin
+.moccasin{
+  color: $moccasin;
+}
+.light-moccasin{
+  color: $light-moccasin;
+}
+.dark-moccasin{
+  color: $dark-moccasin;
+}
+
+// navajowhite
+.navajowhite{
+  color: $navajowhite;
+}
+.light-navajowhite{
+  color: $light-navajowhite;
+}
+.dark-navajowhite{
+  color: $dark-navajowhite;
+}
+
+// navy
+.navy{
+  color: $navy;
+}
+.light-navy{
+  color: $light-navy;
+}
+.dark-navy{
+  color: $dark-navy;
+}
+
+// oldlace
+.oldlace{
+  color: $oldlace;
+}
+.light-oldlace{
+  color: $light-oldlace;
+}
+.dark-oldlace{
+  color: $dark-oldlace;
+}
+
+// olive
+.olive{
+  color: $olive;
+}
+.light-olive{
+  color: $light-olive;
+}
+.dark-olive{
+  color: $dark-olive;
+}
+
+// olivedrab
+.olivedrab{
+  color: $olivedrab;
+}
+.light-olivedrab{
+  color: $light-olivedrab;
+}
+.dark-olivedrab{
+  color: $dark-olivedrab;
+}
+
+// orange
+.orange{
+  color: $orange;
+}
+.light-orange{
+  color: $light-orange;
+}
+.dark-orange{
+  color: $dark-orange;
+}
+
+// orangered
+.orangered{
+  color: $orangered;
+}
+.light-orangered{
+  color: $light-orangered;
+}
+.dark-orangered{
+  color: $dark-orangered;
+}
+
+// orchid
+.orchid{
+  color: $orchid;
+}
+.light-orchid{
+  color: $light-orchid;
+}
+.dark-orchid{
+  color: $dark-orchid;
+}
+
+// palegoldenrod
+.palegoldenrod{
+  color: $palegoldenrod;
+}
+.light-palegoldenrod{
+  color: $light-palegoldenrod;
+}
+.dark-palegoldenrod{
+  color: $dark-palegoldenrod;
+}
+
+// palegreen
+.palegreen{
+  color: $palegreen;
+}
+.light-palegreen{
+  color: $light-palegreen;
+}
+.dark-palegreen{
+  color: $dark-palegreen;
+}
+
+// paleturquoise
+.paleturquoise{
+  color: $paleturquoise;
+}
+.light-paleturquoise{
+  color: $light-paleturquoise;
+}
+.dark-paleturquoise{
+  color: $dark-paleturquoise;
+}
+
+// palevioletred
+.palevioletred{
+  color: $palevioletred;
+}
+.light-palevioletred{
+  color: $light-palevioletred;
+}
+.dark-palevioletred{
+  color: $dark-palevioletred;
+}
+
+// papayawhip
+.papayawhip{
+  color: $papayawhip;
+}
+.light-papayawhip{
+  color: $light-papayawhip;
+}
+.dark-papayawhip{
+  color: $dark-papayawhip;
+}
+
+// peachpuff
+.peachpuff{
+  color: $peachpuff;
+}
+.light-peachpuff{
+  color: $light-peachpuff;
+}
+.dark-peachpuff{
+  color: $dark-peachpuff;
+}
+
+// peru
+.peru{
+  color: $peru;
+}
+.light-peru{
+  color: $light-peru;
+}
+.dark-peru{
+  color: $dark-peru;
+}
+
+// pink
+.pink{
+  color: $pink;
+}
+.light-pink{
+  color: $light-pink;
+}
+.dark-pink{
+  color: $dark-pink;
+}
+
+// plum
+.plum{
+  color: $plum;
+}
+.light-plum{
+  color: $light-plum;
+}
+.dark-plum{
+  color: $dark-plum;
+}
+
+// powderblue
+.powderblue{
+  color: $powderblue;
+}
+.light-powderblue{
+  color: $light-powderblue;
+}
+.dark-powderblue{
+  color: $dark-powderblue;
+}
+
+// purple
+.purple{
+  color: $purple;
+}
+.light-purple{
+  color: $light-purple;
+}
+.dark-purple{
+  color: $dark-purple;
+}
+
+// rebeccapurple
+.rebeccapurple{
+  color: $rebeccapurple;
+}
+.light-rebeccapurple{
+  color: $light-rebeccapurple;
+}
+.dark-rebeccapurple{
+  color: $dark-rebeccapurple;
+}
+
+// red
+.red{
+  color: $red;
+}
+.light-red{
+  color: $light-red;
+}
+.dark-red{
+  color: $dark-red;
+}
+
+// rosybrown
+.rosybrown{
+  color: $rosybrown;
+}
+.light-rosybrown{
+  color: $light-rosybrown;
+}
+.dark-rosybrown{
+  color: $dark-rosybrown;
+}
+
+// royalblue
+.royalblue{
+  color: $royalblue;
+}
+.light-royalblue{
+  color: $light-royalblue;
+}
+.dark-royalblue{
+  color: $dark-royalblue;
+}
+
+// saddlebrown
+.saddlebrown{
+  color: $saddlebrown;
+}
+.light-saddlebrown{
+  color: $light-saddlebrown;
+}
+.dark-saddlebrown{
+  color: $dark-saddlebrown;
+}
+
+// salmon
+.salmon{
+  color: $salmon;
+}
+.light-salmon{
+  color: $light-salmon;
+}
+.dark-salmon{
+  color: $dark-salmon;
+}
+
+// sandybrown
+.sandybrown{
+  color: $sandybrown;
+}
+.light-sandybrown{
+  color: $light-sandybrown;
+}
+.dark-sandybrown{
+  color: $dark-sandybrown;
+}
+
+// seagreen
+.seagreen{
+  color: $seagreen;
+}
+.light-seagreen{
+  color: $light-seagreen;
+}
+.dark-seagreen{
+  color: $dark-seagreen;
+}
+
+// seashell
+.seashell{
+  color: $seashell;
+}
+.light-seashell{
+  color: $light-seashell;
+}
+.dark-seashell{
+  color: $dark-seashell;
+}
+
+// sienna
+.sienna{
+  color: $sienna;
+}
+.light-sienna{
+  color: $light-sienna;
+}
+.dark-sienna{
+  color: $dark-sienna;
+}
+
+// silver
+.silver{
+  color: $silver;
+}
+.light-silver{
+  color: $light-silver;
+}
+.dark-silver{
+  color: $dark-silver;
+}
+
+// skyblue
+.skyblue{
+  color: $skyblue;
+}
+.light-skyblue{
+  color: $light-skyblue;
+}
+.dark-skyblue{
+  color: $dark-skyblue;
+}
+
+// slateblue
+.slateblue{
+  color: $slateblue;
+}
+.light-slateblue{
+  color: $light-slateblue;
+}
+.dark-slateblue{
+  color: $dark-slateblue;
+}
+
+// slategray
+.slategray{
+  color: $slategray;
+}
+.light-slategray{
+  color: $light-slategray;
+}
+.dark-slategray{
+  color: $dark-slategray;
+}
+
+// snow
+.snow{
+  color: $snow;
+}
+.light-snow{
+  color: $light-snow;
+}
+.dark-snow{
+  color: $dark-snow;
+}
+
+// springgreen
+.springgreen{
+  color: $springgreen;
+}
+.light-springgreen{
+  color: $light-springgreen;
+}
+.dark-springgreen{
+  color: $dark-springgreen;
+}
+
+// steelblue
+.steelblue{
+  color: $steelblue;
+}
+.light-steelblue{
+  color: $light-steelblue;
+}
+.dark-steelblue{
+  color: $dark-steelblue;
+}
+
+// tan
+.tan{
+  color: $tan;
+}
+.light-tan{
+  color: $light-tan;
+}
+.dark-tan{
+  color: $dark-tan;
+}
+
+// teal
+.teal{
+  color: $teal;
+}
+.light-teal{
+  color: $light-teal;
+}
+.dark-teal{
+  color: $dark-teal;
+}
+
+// thistle
+.thistle{
+  color: $thistle;
+}
+.light-thistle{
+  color: $light-thistle;
+}
+.dark-thistle{
+  color: $dark-thistle;
+}
+
+// tomato
+.tomato{
+  color: $tomato;
+}
+.light-tomato{
+  color: $light-tomato;
+}
+.dark-tomato{
+  color: $dark-tomato;
+}
+
+// turquoise
+.turquoise{
+  color: $turquoise;
+}
+.light-turquoise{
+  color: $light-turquoise;
+}
+.dark-turquoise{
+  color: $dark-turquoise;
+}
+
+// violet
+.violet{
+  color: $violet;
+}
+.light-violet{
+  color: $light-violet;
+}
+.dark-violet{
+  color: $dark-violet;
+}
+
+// wheat
+.wheat{
+  color: $wheat;
+}
+.light-wheat{
+  color: $light-wheat;
+}
+.dark-wheat{
+  color: $dark-wheat;
+}
+
+// white
+.white{
+  color: $white;
+}
+.light-white{
+  color: $light-white;
+}
+.dark-white{
+  color: $dark-white;
+}
+
+// whitesmoke
+.whitesmoke{
+  color: $whitesmoke;
+}
+.light-whitesmoke{
+  color: $light-whitesmoke;
+}
+.dark-whitesmoke{
+  color: $dark-whitesmoke;
+}
+
+// yellow
+.yellow{
+  color: $yellow;
+}
+.light-yellow{
+  color: $light-yellow;
+}
+.dark-yellow{
+  color: $dark-yellow;
+}
+
+// yellowgreen
+.yellowgreen{
+  color: $yellowgreen;
+}
+.light-yellowgreen{
+  color: $light-yellowgreen;
+}
+.dark-yellowgreen{
+  color: $dark-yellowgreen;
+}
