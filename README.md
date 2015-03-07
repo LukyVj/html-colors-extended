@@ -46,3 +46,5 @@ $dark-tint: <amount-in-percent>;
 ## NOTE
 To use the colors as background, use the `currentColor` variable, and if you want to add text in it, simply use a text tag, such as p, h1, h2, or anything else, it's more semantic, and you get more control over your text.
 
+## Example
+See it live : [On codepen](http://codepen.io/LukyVj/pen/Wbgjob)
