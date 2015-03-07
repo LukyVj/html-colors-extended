@@ -47,6 +47,7 @@
     background: currentColor;
   }
  ```
+ *Use the `currentColor` css variable to extend the `color:` value to the background.*
 ---
  You can also extend the classes into your styles : 
   ```html
