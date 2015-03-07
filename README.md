@@ -136,3 +136,7 @@ To use the colors as background, use the `currentColor` variable, and if you wan
 
 ## Example
 See it live : [On codepen](http://codepen.io/LukyVj/pen/Wbgjob)
+
+## Thank you
+To the contributor(s) :
+ - [@schoenwaldnils](https://github.com/schoenwaldnils/) - [http://www.schoenwald-media.de](http://www.schoenwald-media.de/)
